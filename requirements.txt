@@ -1,0 +1,13 @@
+streamlit
+psycopg2-binary
+sqlalchemy
+langchain
+chromadb
+sentence-transformers
+fastapi
+pydantic
+requests
+ollama
+langchain-community
+langchain-text-splitters
+unstructured
