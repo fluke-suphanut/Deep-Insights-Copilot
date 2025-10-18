@@ -90,7 +90,13 @@ docker-compose up --build
 pip install -r requirements.txt
 ```
 
-สร้าง Vector DB
+สร้างฐานข้อมูล
+
+```
+psql -U postgres -f init.sql
+```
+
+สร้างฐานความรู้
 
 ```
 python build_vector_db.py
