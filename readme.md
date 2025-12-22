@@ -1,16 +1,12 @@
 # **Deep Insights Copilot**
 
-AI Copilot สำหรับทีม Operation Support ของ dBank
-ระบบช่วยตอบคำถามจากข้อมูลบริษัท (SQL + Docs) ด้วยภาษาธรรมชาติ
+AI Copilot
+ระบบช่วยตอบคำถามจากข้อมูล (SQL + Docs) ด้วยภาษาธรรมชาติ
 พร้อมระบบ Guardrail ปลอดภัย และรองรับการเรียกใช้งานผ่าน MCP Tools
-
-## Concept
-
-Deep Insights Copilot ถูกออกแบบมาสำหรับ dBank ธนาคารเสมือนจริงที่มีลูกค้า 40 ล้านคน และมี Ticket ~50,000 รายการ/เดือน เป้าหมายคือช่วยทีม Operation Support ลดเวลาตอบคำถามซ้ำลง 80% และ deflect ได้ 25% โดยใช้ AI ตอบคำถามแทนคน
 
 ระบบนี้สามารถ:
 
-- ตอบคำถามเชิงข้อมูลและนโยบายจาก Knowledge Base (markdown docs)
+- ตอบคำถามเชิงข้อมูลจาก Knowledge Base (markdown docs)
 - รันคำสั่ง SQL หรือ KPI Aggregation ได้อย่างปลอดภัย
 - วิเคราะห์คำถามและเลือกว่าใช้ Tool ไหนอัตโนมัติผ่าน `router.py`
 
